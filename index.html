@@ -1,0 +1,1231 @@
+[9/24/2026 9:51 AM] Madrid: <!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Premium Clean | Professional Cleaning Services</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #17202a;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+
+    background: white;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    color: #111827;
+}
+
+.logo span {
+    color: #1597d4;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+
+    margin-left: 25px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #1597d4;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 650px;
+
+    padding: 80px 8%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 60px;
+
+    background:
+        linear-gradient(120deg, #eaf8ff, #ffffff);
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-badge {
+    display: inline-block;
+
+    background: #dff4ff;
+    color: #0878ad;
+
+    padding: 8px 16px;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 58px;
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #1597d4;
+}
+
+.hero p {
+    font-size: 20px;
+
+    color: #5d6875;
+
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+
+    padding: 15px 30px;
+
+    background: #111827;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    border: none;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.15);
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero-image img {
+    width: 100%;
+
+    height: 430px;
+
+    object-fit: cover;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,0.18);
+}
+
+
+/* STATS */
+
+.stats {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 70px;
+
+    padding: 45px 8%;
+
+    background: #111827;
+
+    color: white;
+
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 32px;
+}
+
+.stat p {
+    color: #cbd5e1;
+}
+
+
+/* GENERAL */
+
+section {
+    padding: 90px 8%;
+}
+
+.section-title {
+    text-align: center;
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    text-align: center;
+
+    color: #68727e;
+
+    max-width: 650px;
+
+    margin: 0 auto 50px;
+}
+
+
+/* SERVICES */
+
+.services {
+    background: white;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border-radius: 18px;
+
+    border: 1px solid #eeeeee;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.06);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 18px 35px rgba(0,0,0,0.12);
+}
+
+.icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 20px;
+
+    background: #e8f7ff;
+
+    border-radius: 50%;
+
+    font-size: 30px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+
+    font-size: 22px;
+}
+
+.card p {
+    color: #666;
+}
+
+
+/* WHY US */
+
+.why {
+    background: #f6f9fb;
+}
+
+.why-grid {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.why-card {
+    width: 250px;
+
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow:
+        0 7px 22px rgba(0,0,0,0.06);
+}
+
+.why-card h3 {
+    margin: 15px 0 10px;
+}
+
+.why-card p {
+    color: #68727e;
+}
+
+
+/* PRICING */
+
+.pricing {
+    background: white;
+}
+
+.price-card {
+    width: 300px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    background: white;
+
+    border-radius: 18px;
+[9/24/2026 9:51 AM] Madrid: border: 1px solid #eeeeee;
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.07);
+
+    transition: 0.3s;
+}
+
+.price-card:hover {
+    transform: translateY(-8px);
+}
+
+.price-card.featured {
+    border: 2px solid #1597d4;
+
+    transform: scale(1.04);
+}
+
+.price-card.featured:hover {
+    transform: scale(1.04) translateY(-8px);
+}
+
+.popular {
+    display: inline-block;
+
+    background: #1597d4;
+
+    color: white;
+
+    padding: 5px 14px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 40px;
+
+    font-weight: bold;
+
+    margin: 20px 0;
+}
+
+.price-card ul {
+    list-style: none;
+
+    margin-bottom: 25px;
+}
+
+.price-card li {
+    margin: 10px;
+}
+
+
+/* ABOUT */
+
+.about {
+    background: #f6f9fb;
+
+    text-align: center;
+}
+
+.about p {
+    max-width: 750px;
+
+    margin: auto;
+
+    color: #59636e;
+
+    font-size: 18px;
+}
+
+
+/* REVIEWS */
+
+.reviews {
+    background: white;
+}
+
+.review-card {
+    width: 310px;
+
+    padding: 30px;
+
+    background: #f7fafc;
+
+    border-radius: 16px;
+
+    text-align: center;
+}
+
+.stars {
+    color: #f5b301;
+
+    font-size: 22px;
+
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    color: #59636e;
+
+    margin-bottom: 18px;
+}
+
+.review-card strong {
+    color: #17202a;
+}
+
+
+/* CONTACT */
+
+.contact {
+    background:
+        linear-gradient(120deg, #e8f7ff, #f8fcff);
+
+    text-align: center;
+}
+
+.contact-text {
+    color: #59636e;
+
+    margin-bottom: 25px;
+}
+
+form {
+    max-width: 600px;
+
+    margin: 30px auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #d9e0e5;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    font-family: Arial, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+
+    border-color: #1597d4;
+
+    box-shadow:
+        0 0 0 3px rgba(21,151,212,0.12);
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    font-size: 16px;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp {
+    display: inline-block;
+
+    margin-top: 10px;
+
+    padding: 14px 25px;
+
+    background: #25D366;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.whatsapp:hover {
+    transform: translateY(-3px);
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+
+    text-align: center;
+
+    background: #111827;
+
+    color: white;
+}
+
+footer p {
+    color: #cbd5e1;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 70px 8%;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .hero-image {
+        width: 100%;
+
+        max-width: 600px;
+    }
+
+    .hero-image img {
+        height: 300px;
+    }
+
+    .stats {
+        gap: 25px;
+
+        flex-wrap: wrap;
+    }
+
+    .stat h3 {
+        font-size: 25px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .price-card.featured {
+        transform: none;
+    }
+
+    .price-card.featured:hover {
+        transform: translateY(-8px);
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+<div class="logo">
+Premium<span>Clean</span>
+</div>
+
+<nav>
+
+<a href="#home">Home</a>
+
+<a href="#services">Services</a>
+
+<a href="#pricing">Pricing</a>
+
+<a href="#about">About</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="hero-badge">
+⭐ Trusted Cleaning Service
+</div>
+
+<h1>
+Professional Cleaning
+<span>For Your Home</span>
+</h1>
+
+<p>
+
+Reliable, professional and affordable
+cleaning services.
+
+Enjoy a cleaner, healthier and more
+comfortable home.
+
+</p>
+
+<a href="#contact" class="button">
+Get a Free Quote
+</a>
+
+</div>
+
+
+<div class="hero-image">
+
+<img
+src="images/cleaning.jpg"
+alt="Professional home cleaning">
+
+</div>
+
+</section>
+
+
+
+<!-- STATS -->
+
+<div class="stats">
+
+<div class="stat">
+
+<h3>500+</h3>
+
+<p>Happy Customers</p>
+
+</div>
+
+
+<div class="stat">
+
+<h3>5+</h3>
+
+<p>Years Experience</p>
+
+</div>
+[9/24/2026 9:51 AM] Madrid: <div class="stat">
+
+<h3>1000+</h3>
+
+<p>Homes Cleaned</p>
+
+</div>
+
+
+<div class="stat">
+
+<h3>5.0★</h3>
+
+<p>Customer Rating</p>
+
+</div>
+
+</div>
+
+
+
+<!-- SERVICES -->
+
+<section class="services" id="services">
+
+<h2 class="section-title">
+Our Services
+</h2>
+
+<p class="section-subtitle">
+
+Professional cleaning solutions designed
+to make your home fresh and comfortable.
+
+</p>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="icon">
+🧹
+</div>
+
+<h3>
+Regular Cleaning
+</h3>
+
+<p>
+
+Keep your home fresh and clean
+with our reliable regular cleaning service.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+✨
+</div>
+
+<h3>
+Deep Cleaning
+</h3>
+
+<p>
+
+Detailed cleaning for kitchens,
+bathrooms, bedrooms and living areas.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="icon">
+🏠
+</div>
+
+<h3>
+Move-In / Move-Out
+</h3>
+
+<p>
+
+Make moving easier with a complete
+professional cleaning service.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- WHY CHOOSE US -->
+
+<section class="why" id="why">
+
+<h2 class="section-title">
+Why Choose Us?
+</h2>
+
+<p class="section-subtitle">
+
+We focus on quality, reliability and
+customer satisfaction.
+
+</p>
+
+
+<div class="why-grid">
+
+
+<div class="why-card">
+
+<div class="icon">
+⏰
+</div>
+
+<h3>
+On Time
+</h3>
+
+<p>
+We respect your schedule and arrive on time.
+</p>
+
+</div>
+
+
+<div class="why-card">
+
+<div class="icon">
+🧽
+</div>
+
+<h3>
+Quality Cleaning
+</h3>
+
+<p>
+Attention to detail in every room.
+</p>
+
+</div>
+
+
+<div class="why-card">
+
+<div class="icon">
+💰
+</div>
+
+<h3>
+Fair Pricing
+</h3>
+
+<p>
+Simple and transparent pricing.
+</p>
+
+</div>
+
+
+<div class="why-card">
+
+<div class="icon">
+❤️
+</div>
+
+<h3>
+Customer Care
+</h3>
+
+<p>
+Your satisfaction is our priority.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- PRICING -->
+
+<section class="pricing" id="pricing">
+
+<h2 class="section-title">
+Simple Pricing
+</h2>
+
+<p class="section-subtitle">
+
+Choose the cleaning package that fits
+your home and needs.
+
+</p>
+
+
+<div class="cards">
+
+
+<div class="price-card">
+
+<h3>
+Basic
+</h3>
+
+<div class="price">
+$79
+</div>
+
+<ul>
+
+<li>✓ 1 Bedroom</li>
+
+<li>✓ 1 Bathroom</li>
+
+<li>✓ Kitchen</li>
+
+<li>✓ Living Room</li>
+
+</ul>
+
+<a href="#contact" class="button">
+Book Now
+</a>
+
+</div>
+
+
+
+<div class="price-card featured">
+
+<div class="popular">
+MOST POPULAR
+</div>
+
+<h3>
+Standard
+</h3>
+
+<div class="price">
+$129
+</div>
+
+<ul>
+
+<li>✓ 2 Bedrooms</li>
+
+<li>✓ 2 Bathrooms</li>
+
+<li>✓ Kitchen</li>
+
+<li>✓ Living Room</li>
+
+</ul>
+
+<a href="#contact" class="button">
+Book Now
+</a>
+
+</div>
+
+
+
+<div class="price-card">
+
+<h3>
+Premium
+</h3>
+
+<div class="price">
+$179
+</div>
+
+<ul>
+
+<li>✓ 3+ Bedrooms</li>
+
+<li>✓ 2+ Bathrooms</li>
+
+<li>✓ Deep Cleaning</li>
+
+<li>✓ Full Home</li>
+
+</ul>
+
+<a href="#contact" class="button">
+Book Now
+</a>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+<h2 class="section-title">
+About Premium Clean
+</h2>
+
+<p>
+
+We provide reliable and professional
+cleaning services with attention to detail.
+
+Our goal is to give our customers
+a cleaner home and more free time.
+
+Whether you need regular cleaning,
+deep cleaning or help before moving,
+our team is ready to help.
+
+</p>
+
+</section>
+
+
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+<h2 class="section-title">
+What Our Customers Say
+</h2>
+
+<p class="section-subtitle">
+A few words from our happy customers.
+</p>
+
+
+<div class="cards">
+
+
+<div class="review-card">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+
+"Excellent service! My house looked
+completely different after the cleaning."
+
+</p>
+
+<strong>
+— Sarah M.
+</strong>
+
+</div>
+
+
+
+<div class="review-card">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+
+"Very professional, friendly and
+arrived exactly on time. Highly recommended!"
+
+</p>
+
+<strong>
+— James R.
+</strong>
+
+</div>
+
+
+
+<div class="review-card">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+
+"Great price and amazing attention
+to detail. I will definitely book again."
+
+</p>
+
+<strong>
+— Emily T.
+</strong>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">
+Get Your Free Quote
+</h2>
+
+<p class="contact-text">
+[9/24/2026 9:51 AM] Madrid: Tell us what you need and we'll
+get back to you.
+
+</p>
+
+
+<form
+action="mailto:hello@premiumclean.com"
+method="post"
+enctype="text/plain">
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+<input
+type="tel"
+name="phone"
+placeholder="Your Phone">
+
+<textarea
+name="message"
+placeholder="Tell us about your cleaning needs"
+rows="5">
+</textarea>
+
+<button
+type="submit"
+class="button">
+
+Send Request
+
+</button>
+
+</form>
+
+
+<a
+class="whatsapp"
+href="https://wa.me/1234567890"
+target="_blank">
+
+💬 Chat on WhatsApp
+
+</a>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+© 2026 Premium Clean. All rights reserved.
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
